@@ -57,7 +57,7 @@ jobs:
     strategy:
       matrix:
         config:
-          - os: windows-latest
+          - os: windows-2019
             name: windows
             architecture: x64
             library_name: v8_monolith.lib
